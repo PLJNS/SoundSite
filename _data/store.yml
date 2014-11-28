@@ -1,17 +1,17 @@
-- id:           WJP001
-  name:         JOKER Shirt
+- id:           SSP001
+  name:         Fancy Shirt
   price:        $20.00
   description:  "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   link:         "http://storeenvy.com"
 
-- id:           WJP002
-  name:         JOKER Hat
+- id:           SSP002
+  name:         Hat
   price:        $30.00
   description:  "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   link:         "http://storeenvy.com"
 
-- id:           WJP003
-  name:         JOKER Wristbad
+- id:           SSP003
+  name:         Vinyl
   price:        $40.00
   description:  "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   link:         "http://storeenvy.com"

@@ -1,24 +1,20 @@
 # Admin
 
-title:            "WILD JOKERS"
-author:           "WILD JOKERS"
-description:      "WILD JOKERS is a record label that distributes dance music to your face and ear holes. #GetWild"
-email:            "wearewildjokers@gmail.com"
-tumblr:           "wearewildjokers"
-google_analytics: "UA-48339690-1"
+title:            "SoundSite"
+author:           "PLJNS"
+description:      "SoundSite is a Jekyll boilerplate and CMS for labels and artists to publish their content for free."
+email:            "paulmmj@gmail.com"
+# google_analytics: "UA-48339690-1"
 
 releases:         true
 artists:          true
 radio:            true
 blog:             true
-store:            false
+store:            true
 events:           true
 
-primary_color:  "#962500"
-
-# Custom
-
-live_radio:       false
+primary_color:  "#1D407D"
+primary_hover:  "rgba(29, 64, 125, 0.9)"
 
 # Technical
 

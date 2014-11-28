@@ -200,7 +200,6 @@ div.btn-group {
   margin: 0 auto;
 }
 .portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(150, 37, 0, 0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -467,7 +466,7 @@ footer
     margin-bottom: 32px;
 }
 
-#releases, #artists, #radio, #blog, #events {
+#releases, #artists, #radio, #blog, #events, #store {
 display: none;
 }
 
