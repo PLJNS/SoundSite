@@ -2,16 +2,16 @@
   name:         Fancy Shirt
   price:        $20.00
   description:  "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-  link:         "http://storeenvy.com"
+  link:         https://github.com/PLJNS/SoundSite
 
 - id:           SSP002
   name:         Hat
   price:        $30.00
   description:  "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-  link:         "http://storeenvy.com"
+  link:         https://github.com/PLJNS/SoundSite
 
 - id:           SSP003
   name:         Vinyl
   price:        $40.00
   description:  "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-  link:         "http://storeenvy.com"
+  link:         https://github.com/PLJNS/SoundSite
