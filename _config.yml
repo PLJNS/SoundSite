@@ -6,6 +6,8 @@ description:      "SoundSite is a Jekyll boilerplate and CMS for labels and arti
 email:            "paulmmj@gmail.com"
 # google_analytics: "UA-48339690-1"
 
+url:              http://pljns.com/SoundSite
+
 releases:         true
 artists:          true
 radio:            true
