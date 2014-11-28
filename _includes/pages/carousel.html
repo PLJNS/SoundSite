@@ -5,7 +5,7 @@
                         <div class="item {% if forloop.index == 1 %} active {% endif %}">
                             <a {% if carousi.play-id == null %} href="{{ carousi.link }}" target="_blank" 
                                {% else %} id="{{ carousi.play-id }}" href="#" onclick="return false;"
-                               {% endif %}> <img src="/assets/carousel/{{ carousi.id }}.jpg" /> </a>
+                               {% endif %}> <img src="{{ site.url }}/assets/carousel/{{ carousi.id }}.jpg" /> </a>
                         </div>
                     {% endfor %}
                 </div>
