@@ -24,7 +24,6 @@ Some UI features of SoundSite include:
 	-   Radio (full sets/mixes)
 	-   Releases
 	-   Merch products
-
 -   A Releases page with SoundCloud player, which continues playing
 	throughout the site.
 -   An Artists page which opens a new tab to a link of your choice.
