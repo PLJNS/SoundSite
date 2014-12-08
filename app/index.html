@@ -1,0 +1,48 @@
+---
+layout: default
+title: Home
+---
+
+<div id="main-content">
+
+    <section id="index">
+        {% include pages/carousel.html %}
+    </section>
+
+    {% if site.releases %}
+        <section id="releases" class="portfolio">
+            {% include pages/releases.html %}
+        </section>
+    {% endif %}
+
+    {% if site.artists %}
+        <section id="artists" class="portfolio">
+            {% include pages/artists.html %}
+        </section>
+    {% endif %}
+
+    {% if site.events %}
+        <section id="events">
+            {% include pages/events.html %}
+        </section>
+    {% endif %}
+
+    {% if site.radio %}
+        <section id="radio">
+            {% include pages/radio.html %}
+        </section>
+    {% endif %}
+
+    {% if site.store %}
+        <section id="store">
+            {% include pages/store.html %}
+        </section>
+    {% endif %}
+
+    {% if site.radio %}
+        <section id="blog">
+            {% include pages/blog.html %}
+        </section>
+    {% endif %}
+
+</div> 

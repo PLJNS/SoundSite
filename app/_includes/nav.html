@@ -1,0 +1,42 @@
+<nav class="navbar navbar-default navbar-static-top navbar-inverse">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#index" id="index-link"><img src="{{ site.url }}/assets/logo.png" style="height: 60px" class="img-responsive"></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                {% if site.releases`` %}
+                    <li><a href="#releases" id="releases-link">Releases</a></li>
+                {% endif %}
+
+                {% if site.artists %}
+                    <li><a href="#artists" id="artists-link">Artists</a></li>
+                {% endif %}
+
+                {% if site.radio %}
+                    <li><a href="#radio" id="radio-link">Radio</a></li>
+                {% endif %}
+
+                {% if site.events %}
+                    <li><a href="#events" id="events-link">Events</a></li>
+                {% endif %}
+
+                {% if site.store %}
+                    <li><a href="#store" id="store-link">Store</a></li>
+                {% endif %}
+
+                {% if site.blog %}
+                    <li><a href="#blog" id="blog-link">Blog</a></li>
+                {% endif %}
+
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,44 @@
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
+
+name: SoundSite II
+description: 
+author:
+  name: SoundSite
+  email: paulmmj@gmail.com
+
+# Grunt handles images and assets.
+exclude: ['assets', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+
+include: ['.htaccess']
+
+title:            "SoundSite"
+author:           "PLJNS"
+description:      "SoundSite is a Jekyll boilerplate and CMS for labels and artists to publish their content for free."
+email:            "paulmmj@gmail.com"
+google_analytics: "UA-40086312-1"
+
+url:              #http://pljns.com/SoundSite
+
+releases:         true
+artists:          true
+radio:            true
+blog:             true
+store:            true
+events:           true
+
+primary_color:  "#1D407D"
+primary_hover:  "rgba(29, 64, 125, 0.9)"
+
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
+# Markdown library
+markdown: redcarpet
+#   extensions: ['fenced_code_blocks', 'smart']
+
+pygments: false
